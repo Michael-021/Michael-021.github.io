@@ -56,6 +56,9 @@
     vertical-align: middle;
     width: 2.5em;
     }
+    .social-link:hover {
+      background-color: rgb(209, 100, 37);
+    }
     .social-list {
     list-style: none;
     padding: 0;

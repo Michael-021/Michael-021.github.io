@@ -21,6 +21,7 @@
       background-color: #aaa;
       height: 300px;
       width: 100%;
+      position: relative;
      }
     .header-nav {
     float: right;
@@ -40,6 +41,13 @@
     .header-nav a:hover,
     .header-nav a:active {
     color: #ed6e2f;
+    }
+    .header-logo {
+      position: absolute;
+      background-color: #000;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
     }
     .header-logo:hover,
     .header-logo:active {

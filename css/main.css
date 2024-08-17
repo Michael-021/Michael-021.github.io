@@ -2,6 +2,10 @@
  html, body {
    font-family: helvetica, arial, sans;
     }
+    html {
+      box-shadow: 0 0 0 30px #000 inset;
+      padding: 0 30px;
+    }
     h1 {
     font-size: 7vw;
     margin-top: 0;
@@ -32,6 +36,7 @@
    position: relative;
    text-align: center;
    width: 10vh;
+   left: -30px;
   }
   .header-logo:hover,
   .header-logo:active {
@@ -120,6 +125,11 @@
     margin: 40px 1% 0;
     padding: 0 2% 2%;
     width: 23%;
+    }
+    .bio-box img {
+      padding-top: 20px;
+      height: 200px;
+      width: 200px;
     }
     .bio-box h3 {
     color: #fff;

@@ -17,52 +17,55 @@
     text-align: center;
      }     
    /* HEADER STYLES */
-    .header {
-      background-color: #aaa;
-      height: 300px;
-      width: 100%;
-      position: relative;
-     }
-    .header-nav {
-    float: right;
-    padding: 5.5vh 60px 0 0;
-    }
-    .header-nav > li {
-    display: inline-block;
-    margin-left: 1em;
-    }
-    .header-nav a {
-    color: #000;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    }
-    .header-nav a:hover,
-    .header-nav a:active {
-    color: #ed6e2f;
-    }
-    .header-logo {
-      position: absolute;
-      background-color: #000;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-    }
-    .header-logo:hover,
-    .header-logo:active {
-    opacity: 0.5;
-    }
-    .header-nav > li:first-child a {
-    color: #ed6e2f;
-     }
-    .header-nav > li:first-child a:hover {
-    color: #000;
-     }
-    .header-nav > li ~ li {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-    padding-left: 1em;
-     }
+   .header {background-color: #000;
+   color: #fff;
+  }
+  .header-logo {
+   background-color: #000;
+   box-sizing: border-box;
+   display: block;
+   padding-top: 10px;
+   height: 10vh;
+   position: relative;
+   text-align: center;
+   width: 10vh;
+  }
+  .header-logo:hover,
+  .header-logo:active {
+   background-color: #ed6e2f;
+  }
+  .header-logo img {
+   width: 8.6vh;
+  }
+  .header-nav {
+   float: right;
+   padding: 5.5vh 60px 0 0;
+  }
+  .header-nav > li {
+   display: inline-block;
+   margin-left: 1em;
+  }
+  .header-nav > li ~ li {
+   border-left: 1px solid rgba(255, 255, 255, 0.3);
+   padding-left: 1em;
+  }
+  .header-nav a {
+   color: #fff;
+   font-size: 0.8rem;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+  }
+  .header-nav a:hover,
+  .header-nav a:active {
+   color: #ed6e2f;
+  }
+  .header-nav > li:first-child a {
+   color: #ed6e2f;
+  }
+  .header-nav > li:first-child a:hover {
+   color: #fff;
+  }  
     /* HERO STYLES */
     .full-hero {
     background-color: #c7dbfc;

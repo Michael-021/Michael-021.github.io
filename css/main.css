@@ -15,11 +15,14 @@
     margin: 1em auto 0;
     max-width: 70%;
     text-align: center;
-     }     
+    }     
    /* HEADER STYLES */
    .header {background-color: #000;
-   color: #fff;
-  }
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    }
   .header-logo {
    background-color: #000;
    box-sizing: border-box;

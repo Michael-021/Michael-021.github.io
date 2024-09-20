@@ -79,8 +79,15 @@
   }  
    /* HERO STYLES */
   .full-hero {
-  background-color: #c7dbfc;
-  height: 50vh;
+    background-color: #c7dbfc;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-top: 10vh;
+  }
+  .hero-home {
+    background-image: url(/images/shark.jpg);
+    background-position: center top;
   }
   /* SOCIAL STYLES */
   .social-link {

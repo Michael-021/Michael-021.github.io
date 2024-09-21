@@ -81,11 +81,24 @@
   .full-hero {
     background-color: #c7dbfc;
     background-size: cover;
-    background-repeat: no-repeat;
     box-sizing: border-box;
     height: 100vh;
     padding-top: 10vh;
   }
+  .full-hero ::after {
+    border: 10px solid;
+    border-color: #fff transparent transparent;
+    bottom: 2vh;
+    color: #fff;
+    content: "";
+    height: 0;
+    width: 0;
+    left: 50%;
+    top: 200%;
+    font-size: 36px;
+    position: absolute;
+    transform: translate(-50%,0);
+   }
   .hero-home {
     background-image: url(/images/shark.jpg);
     background-position: center center;
@@ -111,6 +124,7 @@
     background-color: #000;
     color: #fff;
   }
+  
   /* SOCIAL STYLES */
   .social-link {
     background: rgba(150, 150, 150, 0.5);

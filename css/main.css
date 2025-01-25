@@ -296,6 +296,7 @@
    }
 
    /* COLUMN STYLES */
+   
     .col-three {
       display: flex; 
       flex: 1;
@@ -536,11 +537,22 @@
 
       /* BLOG STYLES */
 
+      .col-two {
+        display: block;
+      }
       .blog-recent {
-        display: none;
+        text-align: center;
+        margin-bottom: 20px;
       }
       .blog-previews {
         padding: 8px;
+      }
+
+      /* POST STYLES */
+
+      .page {
+        width: auto;
+        margin: 5px;
       }
     }
     

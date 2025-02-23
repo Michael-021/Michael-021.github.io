@@ -10,7 +10,7 @@
     body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
     min-height: 100vh;
     }
     .content-container {
@@ -23,7 +23,9 @@
     font-size: 7vw;
     margin-top: 0;
     }
-    
+    h1,h2,h3,h4,h5,h6 {
+      font-family: 'Raleway', Helvetica, Sans;
+    }
     a {
     color: #f00;
     }
@@ -223,7 +225,7 @@
     height: 0;
     width: 0;
     left: 50%;
-    top: 180%;
+    top: 50vh;
     position: absolute;
     display: block;
     transform: translate(-50%,0);
@@ -354,6 +356,7 @@
     margin: -40px 0 1em;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Montserrat';
     }
     .bio-box img {
     width: 100%;

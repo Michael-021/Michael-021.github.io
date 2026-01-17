@@ -10,6 +10,21 @@ body {
   font-family: helvetica, arial, sans;
 }
 /* HEADER STYLES */
+.header {
+  background-color: #aaa;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  background-color: #000;
+  height: 110px;
+  width: 110px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;

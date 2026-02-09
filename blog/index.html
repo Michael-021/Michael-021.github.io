@@ -11,7 +11,7 @@ layout: default
         {% for post in site.posts limit:5 %}
         <li>
           <a href="{{ post.url }}">Blog post title</a>
-          <span>Posted: {{post.date | date: '%B %d, %Y' Year}}</span>
+          <span>Posted: {{post.date | date: '%d %B, %Y' Year}}</span>
         </li>
         {%endfor%}
       </ul>
@@ -25,7 +25,7 @@ layout: default
             <img src="{{post.gravatar}}" />
             <a href="{{post.authorTwitter}}" class="social-link">Tw</a>
             by: {{ post.author }}
-            <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+            <span> - {{ post.date | date: "%d %B, %Y" }}</span>
           </div>
         </header>
         <div

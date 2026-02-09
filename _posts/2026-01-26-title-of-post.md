@@ -16,8 +16,9 @@ and see the watery part of the world. It is a way I have of driving
 off
 the spleen and regulating the circulation.
 
-<img class="pull-left" src="https://placekitten.com/g/400/200"
+<img class="pull-left"     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yTczAtGMdlHxKZ7RJbUq-kFkAsU2vd1uPw&s"
  alt="kitten">
+
 Whenever I find myself growing grim about the mouth; whenever it is a
 damp,
 drizzly November in my soul; whenever I find myself involuntarily
